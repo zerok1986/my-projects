@@ -1,0 +1,29 @@
+picture {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+}
+
+picture.is-small {
+  width: 50px;
+}
+
+picture.is-large {
+  width: 200px;
+}
+
+div {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 34px;
+}
+
+img {
+  box-shadow: 0 0 15px #999;
+  border-radius: 50%;
+  width: 100%;
+}
+
+img.disabled {
+  opacity: 0.3;
+}
